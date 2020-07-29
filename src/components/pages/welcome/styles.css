@@ -1,0 +1,20 @@
+#mainDiv {
+  height: 91vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ),
+    url("../../../assets/img/frota.jpg");
+  background-size: cover;
+}
+
+h1#mainH1 {
+  color: #fff;
+  font-size: 65px;
+  font-weight: bold;
+  margin-top: 70px;
+  text-shadow: 6px 6px black;
+}

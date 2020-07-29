@@ -1,0 +1,18 @@
+#travelHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+#travelDiv {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("../../../assets/img/praia2.jpg");
+  background-size: cover;
+  height: 100%;
+}

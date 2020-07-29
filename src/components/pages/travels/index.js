@@ -11,7 +11,7 @@ class Travels extends React.Component {
       <div id="travelDiv">
         <Nav />
         <h1 id="travelHeader">Viagens</h1>
-        <NewButton>Nova Viagem</NewButton>
+        <NewButton href="/newTravel">Nova Viagem</NewButton>
         <TravelFilter />
         <TravelTable />
       </div>

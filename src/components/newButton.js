@@ -5,7 +5,7 @@ import "./newButton.css";
 class NewButton extends React.Component {
   render() {
     return (
-      <Link to="/newTravel" id="newButton">
+      <Link to={this.props.href} id="newButton">
         {this.props.children}
       </Link>
     );
